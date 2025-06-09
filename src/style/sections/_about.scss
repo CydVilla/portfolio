@@ -1,3 +1,6 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
 #about {
   background-color: $primary-color;
   background-image: linear-gradient(
