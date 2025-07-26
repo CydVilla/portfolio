@@ -9,6 +9,7 @@ import {
   HStack,
   Icon,
   useColorModeValue,
+  Image,
 } from '@chakra-ui/react';
 import { FaReact, FaNodeJs, FaDatabase, FaGitAlt } from 'react-icons/fa';
 import { SiTypescript, SiJavascript } from 'react-icons/si';
@@ -38,12 +39,26 @@ const About = () => {
             <Heading as="h1" size="xl" mb={6}>
               About Me
             </Heading>
-            <Text fontSize="lg" color={textColor} maxW="3xl">
-              I'm a passionate full-stack developer with a strong foundation in modern web technologies.
-              I love creating beautiful, functional, and user-friendly applications that solve real-world problems.
-              My journey in web development started with a curiosity about how things work on the internet,
-              and it has evolved into a professional career where I continuously learn and grow.
-            </Text>
+            <HStack spacing={8} align="start" mb={6}>
+              <Image
+                src="/assets/profile.jpg"
+                alt="Cyd Villavicencio"
+                borderRadius="full"
+                boxSize="200px"
+                objectFit="cover"
+                boxShadow="lg"
+                border="4px solid"
+                borderColor="brand.500"
+              />
+              <VStack align="start" spacing={4} flex={1}>
+                <Text fontSize="lg" color={textColor}>
+                  I'm a passionate full-stack developer with a strong foundation in modern web technologies.
+                  I love creating beautiful, functional, and user-friendly applications that solve real-world problems.
+                  My journey in web development started with a curiosity about how things work on the internet,
+                  and it has evolved into a professional career where I continuously learn and grow.
+                </Text>
+              </VStack>
+            </HStack>
           </Box>
 
           {/* Skills Section */}
