@@ -21,7 +21,7 @@ export const projects: Project[] = [
   {
     id: '2',
     title: 'Star Wars',
-    description: 'A web application that displays information about Star Wars characters and films.',
+    description: 'A web application that uses the Giphy API to have Star Wars characters duel each other with animated GIFs.',
     image: '/assets/star-wars.jpg',
     tags: ['React', 'SWAPI', 'CSS'],
     githubUrl: 'https://github.com/CydVilla/Star-Wars',
@@ -30,7 +30,7 @@ export const projects: Project[] = [
   {
     id: '3',
     title: 'PokeSearch',
-    description: 'A search engine for finding and sharing programming resources.',
+    description: 'PokeSearch is a web app that lets you quickly search for your favorite Pokémon. Simply type a name to view detailed stats and a cool sprite, all powered by the PokeAPI.',
     image: '/assets/psearch.png',
     tags: ['React', 'Node.js', 'MongoDB', 'Express'],
     githubUrl: 'https://github.com/CydVilla/PokeSearch',
