@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Box,
   Image,
@@ -22,7 +21,7 @@ interface ProjectCardProps {
   liveUrl?: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({
+const ProjectCard = ({
   title,
   description,
   image,
