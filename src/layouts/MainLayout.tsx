@@ -23,7 +23,7 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
             <Link as={RouterLink} to="/" fontWeight="bold" fontSize="xl">
               Cyd Villavicencio
             </Link>
-            <Flex gap={8} overflowX="auto" css={{ '&::-webkit-scrollbar': { display: 'none' } }} sx={{ scrollbarWidth: 'none' }}>
+            <Flex gap={8} overflowX="auto" sx={{ scrollbarWidth: 'thin' }}>
               <Link as={RouterLink} to="/" _hover={{ color: 'brand.500' }} whiteSpace="nowrap">
                 Home
               </Link>
