@@ -51,6 +51,7 @@ src/
 - Use **TypeScript** for all new components
 - Export components as **default exports**
 - Follow **React best practices** for state management and effects
+- Use **useDisclosure** hook for managing modal/menu open/close state
 
 ### Component Structure
 
@@ -59,13 +60,24 @@ src/
 - Place layout components in `src/layouts/`
 - Keep components focused and single-responsibility
 
+### Mobile Navigation Pattern
+
+- Use Chakra UI's `useDisclosure` hook to manage menu state
+- Implement responsive navigation with `display={{ base: 'none', md: 'flex' }}` for desktop nav
+- Use `IconButton` with hamburger icon (`FaBars`) for mobile menu toggle
+- Wrap mobile menu items in `Collapse` component for smooth animations
+- Include proper ARIA labels for accessibility (e.g., "Open navigation menu" / "Close navigation menu")
+- Store navigation links in a const array for DRY principle
+
 ### Styling with Chakra UI
 
 - Use **Chakra UI components** for all UI elements
 - Leverage the custom theme in `src/styles/theme.ts`
 - Use **brand colors** (brand.50 to brand.900) for primary colors
-- Use **responsive props** for mobile-first design
+- Use **responsive props** for mobile-first design (e.g., `display={{ base: 'none', md: 'flex' }}`)
 - Follow Chakra UI's **accessibility best practices**
+- Use `useColorModeValue` for consistent light/dark mode support
+- For mobile navigation, use `useDisclosure` hook with `Collapse` and responsive display props
 
 ### Theme Colors
 
@@ -108,6 +120,16 @@ src/
 - Reference assets using absolute paths: `/assets/your-image.jpg`
 - Optimize images before adding them to the repository
 
+## SEO and Meta Tags
+
+- All HTML pages should include comprehensive SEO meta tags:
+  - Standard meta tags: `description`, `keywords`, `author`
+  - Open Graph tags for social media sharing (og:title, og:description, og:type)
+  - Twitter Card tags for Twitter sharing
+  - Structured data using JSON-LD (Schema.org) for rich search results
+- Page titles should follow the format: "Cyd Villavicencio | [Page Purpose]"
+- All meta content should reflect the business focus: responsive websites, web solutions, business/portfolio sites
+
 ## Deployment
 
 - **Build command**: `npm run build`
@@ -123,8 +145,9 @@ src/
 4. **Preserve accessibility** - Use Chakra UI's a11y features
 5. **Test locally** - Run `npm run dev` to verify changes
 6. **Build before committing** - Ensure `npm run build` succeeds
-7. **Mobile-first design** - Use Chakra UI responsive props
+7. **Mobile-first design** - Use Chakra UI responsive props (base, md, lg breakpoints)
 8. **Component reusability** - Extract common patterns into components
+9. **SEO compliance** - Ensure all pages have proper meta tags and structured data
 
 ## Common Tasks
 
