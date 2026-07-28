@@ -15,6 +15,7 @@ import {
 import { Fragment } from 'react';
 import { FaArrowLeft } from 'react-icons/fa';
 import { Navigate, Link as RouterLink, useParams } from 'react-router-dom';
+import usePageMeta from '../hooks/usePageMeta';
 import { articles, type ArticleBlock } from '../data/articles';
 
 const formatDate = (date: string) =>
@@ -110,9 +111,20 @@ const ArticleBlockView = ({ block }: { block: ArticleBlock }) => {
   }
 };
 
+// Clamps text to a meta-description-friendly length at a word boundary
+const clampDescription = (text: string, max = 155) => {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
+  return `${cut.slice(0, cut.lastIndexOf(' '))}…`;
+};
+
 const BlogPost = () => {
   const { slug } = useParams();
   const article = articles.find((a) => a.slug === slug);
+  usePageMeta(
+    article ? `${article.title} | Cyd Villavicencio` : 'Cyd Villavicencio | Blog & Writing',
+    article ? clampDescription(article.excerpt) : undefined
+  );
   const metaColor = useColorModeValue('gray.500', 'gray.400');
   const subtitleColor = useColorModeValue('gray.600', 'gray.300');
 

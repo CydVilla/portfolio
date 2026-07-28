@@ -11,6 +11,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
+import usePageMeta from '../hooks/usePageMeta';
 import { articles } from '../data/articles';
 
 const formatDate = (date: string) =>
@@ -21,6 +22,10 @@ const formatDate = (date: string) =>
   });
 
 const Blog = () => {
+  usePageMeta(
+    'Cyd Villavicencio | Blog & Writing',
+    'The writing of Cyd Villavicencio: articles, essays and musings on sports, movies, tech and building things for the web.'
+  );
   const bgColor = useColorModeValue('gray.50', 'gray.900');
   const cardBg = useColorModeValue('white', 'gray.800');
   const textColor = useColorModeValue('gray.600', 'gray.300');
