@@ -27,7 +27,7 @@ export const articles: Article[] = [
     readTime: '4 min read',
     tags: ['StellaFrame', 'Web Development', 'Small Business'],
     excerpt:
-      'You spent years earning a 4.9-star rating. Then you built a website that doesn’t mention it. This is the most common gap I see on small business sites — and why I built StellaFrame to close it with two lines of HTML.',
+      'You spent years earning a 4.9-star rating. Then you built a website that doesn’t mention it. This is the most common gap I see on small business sites, and the reason I built StellaFrame to close it with two lines of HTML.',
     content: [
       {
         type: 'paragraph',
@@ -35,7 +35,7 @@ export const articles: Article[] = [
       },
       {
         type: 'paragraph',
-        text: 'This is the most common gap I see on small business sites. The reviews exist. They’re good. They’re specific, credible, written by real customers — the single most persuasive thing anyone could say about the business. And they’re one click away on a Google listing that a visitor to your homepage will never open.',
+        text: 'This is the most common gap I see on small business sites. The reviews exist. They’re good. They’re specific, credible, written by real customers. They are the single most persuasive thing anyone could say about the business. And they’re one click away on a Google listing that a visitor to your homepage will never open.',
       },
       {
         type: 'paragraph',
@@ -56,7 +56,7 @@ export const articles: Article[] = [
       },
       {
         type: 'paragraph',
-        text: 'That’s the install. No API keys, no plugins, no uploads, no Meta app review. The widget is Shadow-DOM isolated, so it can’t inherit or break your existing styles. It’s 12–20 KB and lazy-loads, so it won’t drag your page speed down.',
+        text: 'That’s the install. No API keys, no plugins, no uploads, no Meta app review. The widget is Shadow-DOM isolated, so it can’t inherit or break your existing styles. It’s 12 to 20 KB and lazy-loads, so it won’t drag your page speed down.',
       },
       {
         type: 'paragraph',
@@ -70,18 +70,18 @@ export const articles: Article[] = [
       {
         type: 'list',
         items: [
-          '**Google reviews** — carousel, grid, list, or a compact rating badge for your header',
-          '**Instagram feed** — pulls your latest posts automatically',
-          '**YouTube gallery** — your channel’s uploads with an in-page player',
-          '**Audio player** — continuous playback, searchable playlist, per-track buy buttons, and a favorites heart that saves in the listener’s own browser. Four layouts, including a site-wide bar pinned to the window.',
-          '**FAQ accordion** — injects schema.org FAQPage structured data, so search engines can read your answers too',
-          '**Countdown timer** — for launches, sales, registration deadlines. At zero it shows your message or removes itself.',
-          '**WhatsApp chat button** — floats in the corner, opens with your message pre-filled',
+          '**Google reviews**: carousel, grid, list, or a compact rating badge for your header',
+          '**Instagram feed**: pulls your latest posts automatically',
+          '**YouTube gallery**: your channel’s uploads with an in-page player',
+          '**Audio player**: continuous playback, searchable playlist, per-track buy buttons, and a favorites heart that saves in the listener’s own browser. Four layouts, including a site-wide bar pinned to the window.',
+          '**FAQ accordion**: injects schema.org FAQPage structured data, so search engines can read your answers too',
+          '**Countdown timer**: for launches, sales, registration deadlines. At zero it shows your message or removes itself.',
+          '**WhatsApp chat button**: floats in the corner, opens with your message pre-filled',
         ],
       },
       {
         type: 'paragraph',
-        text: 'Every one of them is live on the homepage. Not screenshots — the actual production widget, rendering real data.',
+        text: 'Every one of them is live on the homepage. Not screenshots: the actual production widget, rendering real data.',
       },
       { type: 'heading', text: 'Pricing that doesn’t punish you for growing' },
       {
@@ -103,7 +103,7 @@ export const articles: Article[] = [
       },
       {
         type: 'cta',
-        text: 'Build your widget — free →',
+        text: 'Build your widget for free →',
         href: 'https://app.stellaframe.com/',
       },
     ],
@@ -112,12 +112,12 @@ export const articles: Article[] = [
     slug: 'gen-z-movie-theater-comeback',
     title: 'Gen Z Is Filling Movie Theaters Again. Here’s Why.',
     subtitle:
-      'Industry data shows Gen Z now goes to the movies more than any other generation — the exact opposite of what Hollywood spent five years assuming.',
+      'Industry data shows Gen Z now goes to the movies more than any other generation, the exact opposite of what Hollywood spent five years assuming.',
     date: '2026-07-26',
     readTime: '5 min read',
     tags: ['Culture', 'Movies'],
     excerpt:
-      'For five years, the assumption in Hollywood was that a generation raised on streaming and short-form video would never develop the habit of going to the movies. The data now says the opposite — and I think the reason is bigger than movies.',
+      'For five years, the assumption in Hollywood was that a generation raised on streaming and short-form video would never develop the habit of going to the movies. The data now says the opposite, and I think the reason is bigger than movies.',
     content: [
       {
         type: 'paragraph',
@@ -126,7 +126,7 @@ export const articles: Article[] = [
       { type: 'paragraph', text: 'The data now says the opposite.' },
       {
         type: 'paragraph',
-        text: 'A Fandango study of more than 7,000 moviegoers found that 87% of Gen Z — roughly ages 14 to 29 — saw at least one movie in a theater in the past 12 months. That compares with 82% of millennials, 70% of Gen X and 58% of baby boomers. Gen Z also goes most often, averaging about seven visits a year, and accounts for close to 40% of North American audiences.',
+        text: 'A Fandango study of more than 7,000 moviegoers found that 87% of Gen Z (roughly ages 14 to 29) saw at least one movie in a theater in the past 12 months. That compares with 82% of millennials, 70% of Gen X and 58% of baby boomers. Gen Z also goes most often, averaging about seven visits a year, and accounts for close to 40% of North American audiences.',
       },
       {
         type: 'paragraph',
@@ -134,7 +134,7 @@ export const articles: Article[] = [
       },
       {
         type: 'paragraph',
-        text: 'The interesting part is why. The survey found the draw is social. Younger moviegoers described going out as the point — a reason to leave the house and be around people — alongside a better selection of films than what’s available at home. The thing streaming was supposed to have killed turns out to be the thing streaming can’t offer.',
+        text: 'The interesting part is why. The survey found the draw is social. Younger moviegoers described going out as the point, a reason to leave the house and be around people, alongside a better selection of films than what’s available at home. The thing streaming was supposed to have killed turns out to be the thing streaming can’t offer.',
       },
       {
         type: 'paragraph',
@@ -142,7 +142,7 @@ export const articles: Article[] = [
       },
       {
         type: 'paragraph',
-        text: 'Part of it is the movies themselves. This year’s breakout hits have been made by — and for — young audiences, led by the internet-lore horror phenomenon “Backrooms” and its $81 million opening weekend. “The younger generations wanna go to the movies,” Ross Melnick, a professor of film and media studies at UC Santa Barbara, told the Monitor, noting that films from Gen Z creators seem to be what’s attracting younger audiences.',
+        text: 'Part of it is the movies themselves. This year’s breakout hits have been made by and for young audiences, led by the internet-lore horror phenomenon “Backrooms” and its $81 million opening weekend. “The younger generations wanna go to the movies,” Ross Melnick, a professor of film and media studies at UC Santa Barbara, told the Monitor, noting that films from Gen Z creators seem to be what’s attracting younger audiences.',
       },
       {
         type: 'paragraph',
@@ -151,7 +151,7 @@ export const articles: Article[] = [
       { type: 'heading', text: 'The industry noticed' },
       {
         type: 'paragraph',
-        text: 'Theater owners have been investing accordingly. Operators spent more than $1.5 billion upgrading North American theaters over the past year, according to Cinema United — better seats, better sound, more premium screens. If your local theater feels nicer than you remember, that’s not nostalgia.',
+        text: 'Theater owners have been investing accordingly. Operators spent more than $1.5 billion upgrading North American theaters over the past year, according to Cinema United: better seats, better sound, more premium screens. If your local theater feels nicer than you remember, that’s not nostalgia.',
       },
       {
         type: 'paragraph',
@@ -160,15 +160,15 @@ export const articles: Article[] = [
       { type: 'heading', text: 'My theory: it’s not really about the movies' },
       {
         type: 'paragraph',
-        text: 'Here’s my read on it. Gen Z has fewer third places — spots that aren’t home, work or school — than any generation before it. Malls are dying, everything costs money, and an enormous share of social life happens through a screen. A movie theater is one of the last places where you can spend two hours with other people, in the dark, phones down, for the price of a ticket.',
+        text: 'Here’s my read on it. Gen Z has fewer third places (spots that aren’t home, work or school) than any generation before it. Malls are dying, everything costs money, and an enormous share of social life happens through a screen. A movie theater is one of the last places where you can spend two hours with other people, in the dark, phones down, for the price of a ticket.',
       },
       {
         type: 'paragraph',
-        text: 'Streaming trained us to treat movies as content — something playing in the background while you scroll. A theater makes a movie an event again. It has a start time. You have to go somewhere. Other people are there. For a generation that came of age during lockdowns, that friction isn’t a bug. It’s the product.',
+        text: 'Streaming trained us to treat movies as content: something playing in the background while you scroll. A theater makes a movie an event again. It has a start time. You have to go somewhere. Other people are there. For a generation that came of age during lockdowns, that friction isn’t a bug. It’s the product.',
       },
       {
         type: 'paragraph',
-        text: 'Hollywood spent five years planning around the assumption that young people would never come back. Instead they became the audience. The lesson, I think, is that people don’t abandon shared experiences — they abandon bad ones. Give them a good screen, a good movie and a reason to leave the house, and they show up.',
+        text: 'Hollywood spent five years planning around the assumption that young people would never come back. Instead they became the audience. The lesson, I think, is that people don’t abandon shared experiences; they abandon bad ones. Give them a good screen, a good movie and a reason to leave the house, and they show up.',
       },
       { type: 'heading', text: 'Sources' },
       {
@@ -177,7 +177,7 @@ export const articles: Article[] = [
           'Fandango moviegoer study, via Variety (April 2026)',
           'Pew Research Center (2026)',
           'Cinema United, “The Strength of Theatrical Exhibition”',
-          'Christian Science Monitor, “Plot twist! Gen Z powers a movie theater resurgence” (July 21, 2026) — all quotes',
+          'Christian Science Monitor, “Plot twist! Gen Z powers a movie theater resurgence” (July 21, 2026) (all quotes)',
           'CNBC (May 30, 2026)',
         ],
       },
@@ -192,7 +192,7 @@ export const articles: Article[] = [
     readTime: '5 min read',
     tags: ['Sports', 'Red Sox'],
     excerpt:
-      'Three weeks ago the Boston Red Sox were a last-place team headed for another trade deadline selloff. Today they’re in a playoff spot — on the back of 15 straight wins and one of the strangest, most fun stretches of baseball this team has produced in years.',
+      'Three weeks ago the Boston Red Sox were a last-place team headed for another trade deadline selloff. Today they’re in a playoff spot, on the back of 15 straight wins and one of the strangest, most fun stretches of baseball this team has produced in years.',
     content: [
       {
         type: 'paragraph',
@@ -200,7 +200,7 @@ export const articles: Article[] = [
       },
       {
         type: 'paragraph',
-        text: 'The streak tied a franchise record that had stood for 80 years, set by Ted Williams and the 1946 club that won the American League pennant. It ended July 22 at Fenway Park, when Baltimore jumped on rookie starter Eduardo Rivera for four first-inning runs and took the nightcap of a doubleheader 5-1. Boston had won the opener 6-3 to match the record — a sweep would have broken it outright.',
+        text: 'The streak tied a franchise record that had stood for 80 years, set by Ted Williams and the 1946 club that won the American League pennant. It ended July 22 at Fenway Park, when Baltimore jumped on rookie starter Eduardo Rivera for four first-inning runs and took the nightcap of a doubleheader 5-1. Boston had won the opener 6-3 to match the record; a sweep would have broken it outright.',
       },
       {
         type: 'paragraph',
@@ -216,7 +216,7 @@ export const articles: Article[] = [
       },
       {
         type: 'paragraph',
-        text: 'What made the run improbable is who wasn’t in it — starting with the manager who opened the season. Boston fired Alex Cora in April after a 10-17 start and handed the club to Tracy on an interim basis. The streak itself came without Garrett Crochet, Trevor Story and Roman Anthony. The lineup ranks last in the American League in home runs. Contreras, the team’s best bat this season, missed time in the middle of the stretch. This wasn’t a juggernaut steamrolling bad teams — it was a depleted roster playing close to perfect baseball for three weeks.',
+        text: 'What made the run improbable is who wasn’t in it, starting with the manager who opened the season. Boston fired Alex Cora in April after a 10-17 start and handed the club to Tracy on an interim basis. The streak itself came without Garrett Crochet, Trevor Story and Roman Anthony. The lineup ranks last in the American League in home runs. Contreras, the team’s best bat this season, missed time in the middle of the stretch. This wasn’t a juggernaut steamrolling bad teams. It was a depleted roster playing close to perfect baseball for three weeks.',
       },
       {
         type: 'paragraph',
@@ -233,7 +233,7 @@ export const articles: Article[] = [
       { type: 'heading', text: 'The numbers behind it' },
       {
         type: 'paragraph',
-        text: 'The pitching staff posted a 1.98 ERA over the 15 games, including three shutouts. The offense hit .255/.341/.461 with 22 home runs and averaged 5.9 runs per game — up from 4.0 before the streak began. Sonny Gray has pitched like an ace all season, sitting at 12-1 with a 2.48 ERA.',
+        text: 'The pitching staff posted a 1.98 ERA over the 15 games, including three shutouts. The offense hit .255/.341/.461 with 22 home runs and averaged 5.9 runs per game, up from 4.0 before the streak began. Sonny Gray has pitched like an ace all season, sitting at 12-1 with a 2.48 ERA.',
       },
       {
         type: 'paragraph',
@@ -246,7 +246,7 @@ export const articles: Article[] = [
       },
       {
         type: 'paragraph',
-        text: 'The honest read is that the streak didn’t fix the flaws — the power shortage is real, and the rotation is thin behind Gray until Crochet returns. But it changed the math. Getting Crochet, Story and Anthony back in August is its own version of buying at the deadline, and even a modest addition — a bat with some pop, a reliable arm — now reads as investment rather than desperation.',
+        text: 'The honest read is that the streak didn’t fix the flaws: the power shortage is real, and the rotation is thin behind Gray until Crochet returns. But it changed the math. Getting Crochet, Story and Anthony back in August is its own version of buying at the deadline, and even a modest addition (a bat with some pop, a reliable arm) now reads as investment rather than desperation.',
       },
       {
         type: 'paragraph',
@@ -256,7 +256,7 @@ export const articles: Article[] = [
       {
         type: 'list',
         items: [
-          'AP, “Red Sox match club record of 15 straight wins, then lose nightcap of doubleheader” (July 23, 2026) — all quotes',
+          'AP, “Red Sox match club record of 15 straight wins, then lose nightcap of doubleheader” (July 23, 2026) (all quotes)',
           'Yahoo Sports, “Red Sox’s win streak ends at 15 games with 5-1 loss to Orioles” (July 2026)',
           'MLB.com, “Red Sox’s winning streak snapped at 15,” Ian Browne (July 23, 2026)',
           'ESPN, Red Sox win streak analysis, David Schoenfield',
