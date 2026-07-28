@@ -114,7 +114,7 @@ export const articles: Article[] = [
     subtitle:
       'Industry data shows Gen Z now goes to the movies more than any other generation — the exact opposite of what Hollywood spent five years assuming.',
     date: '2026-07-26',
-    readTime: '4 min read',
+    readTime: '5 min read',
     tags: ['Culture', 'Movies'],
     excerpt:
       'For five years, the assumption in Hollywood was that a generation raised on streaming and short-form video would never develop the habit of going to the movies. The data now says the opposite — and I think the reason is bigger than movies.',
@@ -135,6 +135,18 @@ export const articles: Article[] = [
       {
         type: 'paragraph',
         text: 'The interesting part is why. The survey found the draw is social. Younger moviegoers described going out as the point — a reason to leave the house and be around people — alongside a better selection of films than what’s available at home. The thing streaming was supposed to have killed turns out to be the thing streaming can’t offer.',
+      },
+      {
+        type: 'paragraph',
+        text: '“The movie theater experience has become the hottest ticket out there,” box office analyst Paul Dergarabedian told the Christian Science Monitor. As for the medium’s perpetually rumored death: “The movie theater is never going away, as far as I’m concerned.”',
+      },
+      {
+        type: 'paragraph',
+        text: 'Part of it is the movies themselves. This year’s breakout hits have been made by — and for — young audiences, led by the internet-lore horror phenomenon “Backrooms” and its $81 million opening weekend. “The younger generations wanna go to the movies,” Ross Melnick, a professor of film and media studies at UC Santa Barbara, told the Monitor, noting that films from Gen Z creators seem to be what’s attracting younger audiences.',
+      },
+      {
+        type: 'paragraph',
+        text: 'The audience says the same thing. “I’m tired of the same ‘Star Wars’ movie,” Logan Deree, an IT professional from Boston, told the Monitor. “I need something fresh, I need something original. ‘Backrooms’ was original.”',
       },
       { type: 'heading', text: 'The industry noticed' },
       {
@@ -165,7 +177,7 @@ export const articles: Article[] = [
           'Fandango moviegoer study, via Variety (April 2026)',
           'Pew Research Center (2026)',
           'Cinema United, “The Strength of Theatrical Exhibition”',
-          'Christian Science Monitor (July 21, 2026)',
+          'Christian Science Monitor, “Plot twist! Gen Z powers a movie theater resurgence” (July 21, 2026) — all quotes',
           'CNBC (May 30, 2026)',
         ],
       },
@@ -177,7 +189,7 @@ export const articles: Article[] = [
     subtitle:
       'Boston tied an 80-year-old franchise record before falling to Baltimore. Now the question is what the front office does next.',
     date: '2026-07-24',
-    readTime: '4 min read',
+    readTime: '5 min read',
     tags: ['Sports', 'Red Sox'],
     excerpt:
       'Three weeks ago the Boston Red Sox were a last-place team headed for another trade deadline selloff. Today they’re in a playoff spot — on the back of 15 straight wins and one of the strangest, most fun stretches of baseball this team has produced in years.',
@@ -188,7 +200,15 @@ export const articles: Article[] = [
       },
       {
         type: 'paragraph',
-        text: 'The streak tied a franchise record that had stood for 80 years, set by Ted Williams and the 1946 club that won the American League pennant. It ended July 22 at Fenway Park, when Baltimore took the nightcap of a doubleheader 5-1 behind six innings of one-run ball from Kyle Bradish. Boston had won the opener 6-3 to match the record — a sweep would have broken it outright.',
+        text: 'The streak tied a franchise record that had stood for 80 years, set by Ted Williams and the 1946 club that won the American League pennant. It ended July 22 at Fenway Park, when Baltimore jumped on rookie starter Eduardo Rivera for four first-inning runs and took the nightcap of a doubleheader 5-1. Boston had won the opener 6-3 to match the record — a sweep would have broken it outright.',
+      },
+      {
+        type: 'paragraph',
+        text: 'Nobody in the clubhouse sounded crushed about it. “That was a great ride, a 15-game winning streak,” first baseman Willson Contreras said afterward. “There’s nothing to be sad about. We have to be happy. We should be proud of what we did and from now keep playing the way we’ve been playing.”',
+      },
+      {
+        type: 'paragraph',
+        text: '“We just won 15 games in a row and I think all of us knew it was going to end at some point,” interim manager Chad Tracy said.',
       },
       {
         type: 'paragraph',
@@ -196,7 +216,19 @@ export const articles: Article[] = [
       },
       {
         type: 'paragraph',
-        text: 'What made the run improbable is who wasn’t in it. Boston built the streak without Garrett Crochet, Trevor Story and Roman Anthony. The lineup ranks last in the American League in home runs. Willson Contreras, the team’s best bat this season, missed time in the middle of the stretch. This wasn’t a juggernaut steamrolling bad teams — it was a depleted roster playing close to perfect baseball for three weeks.',
+        text: 'What made the run improbable is who wasn’t in it — starting with the manager who opened the season. Boston fired Alex Cora in April after a 10-17 start and handed the club to Tracy on an interim basis. The streak itself came without Garrett Crochet, Trevor Story and Roman Anthony. The lineup ranks last in the American League in home runs. Contreras, the team’s best bat this season, missed time in the middle of the stretch. This wasn’t a juggernaut steamrolling bad teams — it was a depleted roster playing close to perfect baseball for three weeks.',
+      },
+      {
+        type: 'paragraph',
+        text: 'Even the players were counting along. “I think in the seventh inning I’m counting them down a little bit,” infielder Caleb Durbin said during the run. “You look back at it and think about where you’re doing it and how long this franchise has existed. It’s been incredible.”',
+      },
+      {
+        type: 'paragraph',
+        text: 'Tracy, for his part, knew exactly whose record he was chasing. “I’ve read some stuff. I know Ted Williams was around back then, so I’m aware of the year and how long it’s been,” he said. “It’s cool that they’ve accomplished something great.”',
+      },
+      {
+        type: 'paragraph',
+        text: 'The other dugout tipped its cap, too. “It’s tough to win one game in the big leagues and them going 15 straight, it’s really impressive,” Orioles manager Craig Albernaz said.',
       },
       { type: 'heading', text: 'The numbers behind it' },
       {
@@ -224,10 +256,10 @@ export const articles: Article[] = [
       {
         type: 'list',
         items: [
+          'AP, “Red Sox match club record of 15 straight wins, then lose nightcap of doubleheader” (July 23, 2026) — all quotes',
+          'Yahoo Sports, “Red Sox’s win streak ends at 15 games with 5-1 loss to Orioles” (July 2026)',
           'MLB.com, “Red Sox’s winning streak snapped at 15,” Ian Browne (July 23, 2026)',
-          'AP via Boston.com (July 22, 2026)',
           'ESPN, Red Sox win streak analysis, David Schoenfield',
-          'Sporting News via Yahoo Sports (July 23, 2026)',
           'Standings via MLB, as of July 2026',
         ],
       },
