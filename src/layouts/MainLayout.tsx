@@ -17,6 +17,7 @@ import { type ReactNode } from 'react';
 const navLinks = [
   { label: 'Home', to: '/' },
   { label: 'Projects', to: '/projects' },
+  { label: 'Photography', to: '/photography' },
   { label: 'Blog', to: '/blog' },
   { label: 'About', to: '/about' },
   { label: 'Contact', to: '/contact' },
@@ -52,7 +53,7 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
             >
               Cyd Villavicencio
             </Link>
-            <Flex gap={8} display={{ base: 'none', md: 'flex' }}>
+            <Flex gap={{ md: 5, lg: 8 }} display={{ base: 'none', md: 'flex' }}>
               {navLinks.map((link) => (
                 <Link key={link.to} as={RouterLink} to={link.to} _hover={{ color: 'brand.500' }}>
                   {link.label}
@@ -103,13 +104,13 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
           <Flex justify="space-between" align="center" direction={{ base: 'column', sm: 'row' }} gap={4}>
             <Box>&copy; {new Date().getFullYear()} Cyd Villavicencio</Box>
             <Flex gap={4}>
-              <Link href="https://github.com/yourusername" isExternal>
+              <Link href="https://github.com/CydVilla" isExternal aria-label="GitHub">
                 <FaGithub size={24} />
               </Link>
-              <Link href="https://linkedin.com/in/yourusername" isExternal>
+              <Link href="https://www.linkedin.com/in/cyd-villa/" isExternal aria-label="LinkedIn">
                 <FaLinkedin size={24} />
               </Link>
-              <Link href="https://twitter.com/yourusername" isExternal>
+              <Link href="https://x.com/Cyd_Villa" isExternal aria-label="X">
                 <FaTwitter size={24} />
               </Link>
             </Flex>

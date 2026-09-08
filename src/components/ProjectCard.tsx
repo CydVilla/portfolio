@@ -28,7 +28,7 @@ const ProjectCard = ({
   tags,
   githubUrl,
   liveUrl,
-}) => {
+}: ProjectCardProps) => {
   const bgColor = useColorModeValue('white', 'gray.800');
   const borderColor = useColorModeValue('gray.200', 'gray.700');
 

@@ -1,8 +1,9 @@
-import { Box, Button, Container, Heading, SimpleGrid, Stack, Text, VStack, useColorModeValue } from '@chakra-ui/react';
+import { Box, Button, Container, Heading, Image, SimpleGrid, Stack, Text, VStack, useColorModeValue } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import ProjectCard from '../components/ProjectCard';
 import { projects } from '../data/projects';
+import { photos } from '../data/photos';
 
 const MotionBox = motion(Box);
 
@@ -159,6 +160,47 @@ const Home = () => {
               alignSelf="center"
             >
               See All Projects
+            </Button>
+          </VStack>
+        </Container>
+      </Box>
+
+      {/* Photography Section */}
+      <Box as="section" py={20} bg={sectionBgColor}>
+        <Container maxW="container.xl">
+          <VStack spacing={12}>
+            <VStack spacing={4} textAlign="center" maxW="3xl">
+              <Heading as="h2" size="xl">
+                Behind the Lens
+              </Heading>
+              <Text fontSize="lg" color={textColor}>
+                Photography is my side venture: portraits, event coverage, and the details
+                worth slowing down for. Sessions and prints are booked directly with me.
+              </Text>
+            </VStack>
+            <SimpleGrid columns={{ base: 1, sm: 2, lg: 4 }} spacing={6} width="100%">
+              {photos.slice(0, 4).map((photo) => (
+                <Box key={photo.id} borderRadius="lg" overflow="hidden" boxShadow="md">
+                  <Image
+                    src={photo.thumb}
+                    alt={photo.alt}
+                    width="100%"
+                    height="220px"
+                    objectFit="cover"
+                    loading="lazy"
+                  />
+                </Box>
+              ))}
+            </SimpleGrid>
+            <Button
+              as={RouterLink}
+              to="/photography"
+              size="lg"
+              colorScheme="brand"
+              variant="outline"
+              alignSelf="center"
+            >
+              View the Gallery
             </Button>
           </VStack>
         </Container>
