@@ -9,7 +9,9 @@ import {
   Icon,
   useColorModeValue,
   Image,
+  Link,
 } from '@chakra-ui/react';
+import { Link as RouterLink } from 'react-router-dom';
 import { FaReact, FaNodeJs, FaDatabase, FaGitAlt } from 'react-icons/fa';
 import { SiTypescript, SiJavascript } from 'react-icons/si';
 import { motion } from 'framer-motion';
@@ -55,6 +57,16 @@ const About = () => {
                   I love creating beautiful, functional, and user-friendly applications that solve real-world problems.
                   My journey in web development started with a curiosity about how things work on the internet,
                   and it has evolved into a professional career where I continuously learn and grow.
+                </Text>
+                <Text fontSize="lg" color={textColor}>
+                  Away from the keyboard I shoot with a Canon EOS M6 Mark II, which grew from a
+                  hobby into a side venture covering portraits, events, and close focus work.
+                  It is the same instinct as engineering, really: pay attention to the details
+                  and get the framing right.{' '}
+                  <Link as={RouterLink} to="/photography" color="brand.500" fontWeight="medium">
+                    See the gallery
+                  </Link>
+                  .
                 </Text>
               </VStack>
             </HStack>

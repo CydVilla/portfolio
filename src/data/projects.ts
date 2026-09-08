@@ -30,7 +30,7 @@ export const projects: Project[] = [
   {
     id: '3',
     title: 'TrendCart',
-    description: 'A Bluesky bot and web app that finds trending posts with real product intent and — with manual approval or confidence-gated autonomy — replies with a tagged Amazon search link. Next.js operator dashboard, Node worker pipeline, and an LLM evaluation loop, all built to be conservative and never spammy.',
+    description: 'A Bluesky bot and web app that finds trending posts with real product intent, then replies with a tagged Amazon search link under either manual approval or confidence-gated autonomy. Next.js operator dashboard, Node worker pipeline, and an LLM evaluation loop, all built to be conservative and never spammy.',
     image: '/assets/project.jpg',
     tags: ['TypeScript', 'Next.js', 'Bluesky API', 'LLM'],
     githubUrl: 'https://github.com/CydVilla/trend-cart',
@@ -38,7 +38,7 @@ export const projects: Project[] = [
   {
     id: '4',
     title: 'Slop Hero',
-    description: 'A touchscreen rhythm game for the Tesla in-car browser — a Clone Hero-style tap-only game with a 3D perspective note highway. Upload any song for an auto-generated chart, import Clone Hero songs, build charts in the in-app editor, and publish them to a shared community catalog.',
+    description: 'A Clone Hero-style, tap-only rhythm game for the Tesla in-car browser, built around a 3D perspective note highway. Upload any song for an auto-generated chart, import Clone Hero songs, build charts in the in-app editor, and publish them to a shared community catalog.',
     image: '/assets/project.jpg',
     tags: ['TypeScript', 'Web Audio API', 'Game', 'Tesla'],
     githubUrl: 'https://github.com/CydVilla/slop-hero',
@@ -47,7 +47,7 @@ export const projects: Project[] = [
   {
     id: '5',
     title: 'StellaFrame',
-    description: 'Embeddable website widgets — Google reviews, Instagram feeds, YouTube galleries, FAQ accordions, WhatsApp buttons and countdown timers — added to any site with two lines of HTML. A Preact + Shadow DOM widget (~20 KB gzipped), Express API, and React dashboard builder, with a free tier and $5/month Pro.',
+    description: 'Embeddable website widgets for Google reviews, Instagram feeds, YouTube galleries, FAQ accordions, WhatsApp buttons and countdown timers, all added to any site with two lines of HTML. A Preact + Shadow DOM widget (~20 KB gzipped), Express API, and React dashboard builder, with a free tier and $5/month Pro.',
     image: '/assets/project.jpg',
     tags: ['TypeScript', 'Preact', 'Express', 'SaaS'],
     githubUrl: 'https://github.com/CydVilla/stellaframe',
@@ -56,7 +56,7 @@ export const projects: Project[] = [
   {
     id: '6',
     title: 'Peckish',
-    description: 'An AI ordering agent for DoorDash built on Claude and DoorDash\'s official dd-cli. It searches restaurants, compares real totals with fees included, and builds the cart — you approve every order. One tool layer with three surfaces: terminal chat, a local web app, and an MCP server.',
+    description: 'An AI ordering agent for DoorDash built on Claude and DoorDash\'s official dd-cli. It searches restaurants, compares real totals with fees included, and builds the cart. You approve every order. One tool layer with three surfaces: terminal chat, a local web app, and an MCP server.',
     image: '/assets/project.jpg',
     tags: ['TypeScript', 'Claude', 'MCP', 'AI Agent'],
     githubUrl: 'https://github.com/CydVilla/peckish',
